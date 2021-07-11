@@ -1,0 +1,84 @@
+{
+  "fpsLimit": 60,
+  "particles": {
+    "number": {
+      "value": 2,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "shape": {
+      "type": "image",
+      "options": {
+        "image": [
+          {
+            "src": "postgraphile-tiny.webp",
+            "width": 120,
+            "height": 20,
+            "particles": {
+              "move": {
+                "direction": "top"
+              }
+            }
+          },
+          {
+            "src": "apollo-tiny.webp",
+            "width": 111,
+            "height": 33,
+            "particles": {
+              "move": {
+                "direction": "bottom"
+              }
+            }
+          },
+          {
+            "src": "expo-tiny.webp",
+            "width": 288,
+            "height": 81,
+            "particles": {
+              "move": {
+                "direction": "bottom"
+              }
+            }
+          },
+          {
+            "src": "postgres-tiny.webp",
+            "width": 91,
+            "height": 91,
+            "particles": {
+              "move": {
+                "direction": "bottom"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "opacity": {
+      "value": 1
+    },
+    "size": {
+      "value": 100,
+      "random": {
+        "enable": true,
+        "minimumValue": 30
+      }
+    },
+    "rotate": {
+      "value": 0,
+      "direction": "random",
+      "animation": {
+        "speed": 1,
+        "enable": true
+      }
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "out_mode": "out"
+    }
+  },
+  "detectRetina": true
+}
