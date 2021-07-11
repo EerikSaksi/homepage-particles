@@ -17,6 +17,7 @@
 		"svelte": "^3.34.0",
 		"svelte-check": "^2.0.0",
 		"svelte-intersection-observer": "^0.7.1",
+		"svelte-media-query": "^1.1.1",
 		"svelte-preprocess": "^4.7.3",
 		"tailwindcss": "^2.2.4",
 		"tailwindcss-scroll-snap": "^1.1.0",
